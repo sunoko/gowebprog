@@ -17,5 +17,6 @@
 1. ＜Postgresを起動＞
 2. createdb chitchat
 3. psql -f data/setup.sql -d chitchat
-4. go build
-5. ./chitchat
+4. go get "github.com/lib/pq"
+5. go build
+6. ./chitchat
